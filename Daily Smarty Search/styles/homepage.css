@@ -1,0 +1,87 @@
+body {
+    font-family: 'Lato', sans-serif
+}
+.logo-image img {
+    width: 100px;
+    height: 100%
+}
+
+.logo-image {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 170px;
+}
+
+.searchbar {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.searchbar input {
+    width: 60vw;
+    height: 80px;
+    font-size: 1.7em;
+    color: gray;
+    padding-left: 20px;
+}
+
+.searchbar input[type="text"] {
+    font-size: 1.7em;
+    color: #585858;
+    box-shadow: 1px 2px 8px 1px rgba(0,0,0,0.16);
+    border: 0px solid transparent;
+    border-radius: 0.5rem;
+    font-family: "Font Awesome\ 5 Free", sans-serif;
+    font-weight: 600;
+}
+
+.searchbar input[type="text"]::placeholder {
+    color: #a4a4a4a4;
+    font-family: 'Font Awesome\ 5 Free', sans-serif;
+    font-weight: 600;
+}
+
+.searchbar input[type="text"]:focus {
+    outline: none;
+    box-shadow: 1px 2px 8px 1px rgba(0,0,0,0.4);
+}
+
+.searchbar-text {
+    margin-right: 20%;
+    text-align: right;
+    color: lightgray;
+    font-family: 'Font Awesome\ 5 Free', 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: .9em;
+}
+
+.recent-posts-footer {
+    margin-top: 270px;
+}
+
+.recent-posts-footer .columns-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 20%;
+    margin-right: 20%;
+    grid-gap: 30px;
+}
+
+.recent-posts-footer h1{
+    font-size: 0.7em;
+    color: blue;
+    margin-left: 20%;
+    margin-bottom: 15px;
+}
+
+.recent-posts-footer h2{
+    font-size: 0.7em;
+    color: gray;
+    margin-bottom: 0px;
+}
+
+.recent-posts-footer p {
+    font-size: 0.3em;
+    color: gray;
+    margin-top: 0px;
+}
